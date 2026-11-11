@@ -1,0 +1,4 @@
+proxy/.secrets
+proxy/.access-code
+proxy/*.pem
+.DS_Store

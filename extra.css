@@ -1,0 +1,10 @@
+/* Дополнения к исходному стилю после отказа от Tailwind. */
+*, *::before, *::after { box-sizing: border-box; }
+h1, h2, h3, p, ol, ul, blockquote { margin-top: 0; }
+img, svg { display: inline-block; vertical-align: middle; flex-shrink: 0; }
+.remember { display: flex; align-items: center; gap: 10px; margin: 18px 0 4px; font-weight: 400; color: #aaaaaa; }
+.remember input { width: 16px; height: 16px; margin: 0; padding: 0; }
+.settings-actions + .settings-actions { margin-top: 14px; }
+.settings-card form > .alert { margin-top: 16px; }
+button { color: inherit; }
+.search-config { margin-bottom: 22px; }
